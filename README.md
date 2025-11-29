@@ -4,13 +4,16 @@ Benchmarking script comparing three sorting implementations (Python's Timsort vi
 
 ```
 Empirical timing of sorting algorithms
+
 Algorithm            Size    Seconds (total over runs)
 Timsort (sorted)     1000                     0.000207
 Merge sort           1000                     0.003478
 Insertion sort       1000                     0.038936
+
 Timsort (sorted)    10000                     0.002929
 Merge sort          10000                     0.045659
 Insertion sort      10000                     4.040453
+
 Timsort (sorted)    20000                     0.006248
 Merge sort          20000                     0.092861
 Insertion sort      20000                    15.526919
