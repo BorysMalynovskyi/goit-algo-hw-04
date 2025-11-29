@@ -21,3 +21,6 @@ Insertion sort      20000                    15.526919
 - Merge sort is slower than Timsort but still scales well (n log n): roughly 0.093 seconds on 20000 items.
 - Insertion sort slows down rapidly as data grows: ~0.039 seconds at 1000 items, ~4 seconds at 10000, and ~15.5 seconds at 20000.
 - For medium and large inputs, stick to Timsort or merge sort; insertion sort only makes sense for very small lists or as a helper step inside Timsort.
+
+## Code references
+- Benchmark runner and output: `task_1.py` (uses `merge_sort.py` and `insertion_sort.py`).
